@@ -1,6 +1,6 @@
 const quoteList = [
     {text: 'If you don’t believe it or don’t get it, I don’t have the time to try to convince you, sorry.',
-      author: 'Satoshi Nakamot'},
+      author: 'Satoshi Nakamoto'},
     
     {text: 'I see Bitcoin as ultimately becoming a reserve currency for banks, playing much the same role as gold did in the early days of banking. Banks could issue digital cash with greater anonymity and lighter weight, more efficient transactions.',
       author: 'Hal Finney'},

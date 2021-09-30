@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.6vw;
+    font-size: 1.4vw;
   }
   
   @media (max-width:500px) {

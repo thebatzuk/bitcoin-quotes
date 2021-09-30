@@ -1,0 +1,70 @@
+body {
+    background-color: #333;
+    color: #333;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6vw;
+  }
+  
+  @media (max-width:500px) {
+    body { 
+      font-size: 3.2vw;
+    }
+  }
+  
+  #quote-box {
+    border-radius: 6px;
+    /*position: relative;*/
+    max-width: 650px;
+    min-width: 65vw;
+    padding: 40px 20px;
+    margin: 10px;
+    background-color: #fff;
+  }
+  
+  #text {
+    text-align: center;
+    font-size: 2.4em;
+    font-family: adobe-garamond-pro, serif;
+    font-style: italic;
+  }
+  
+  #author {
+    padding-top: 20px;
+    font-size: 1.7em;
+    text-align: right;
+  }
+  
+  button {
+    margin: auto;
+    display: block;
+    height: auto;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #333;
+    outline: none;
+    padding: 8px 18px 6px 18px;
+    margin-top: 30px;
+    opacity: 1;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  #tweet-quote {
+    text-align: right;
+  }
+  
+  #tweet-quote a:link {
+    color: gray;
+  }
+  
+  #tweet-quote a:visited {
+    color: gray;
+  }  
